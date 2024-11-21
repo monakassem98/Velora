@@ -1,0 +1,67 @@
+.cards-cont {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: var(--section-margin);
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cards-cont .card {
+  width: calc(95% / 4);
+  padding: var(--main-padding);
+  text-align: center;
+  background-color: var(--back-color);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.cards-cont .card .fav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.cards-cont .card .fav:hover {
+  font-size: 20px;
+  color: var(--sec-color);
+}
+.cards-cont .card .img {
+  border-bottom: var(--border);
+  padding: var(--main-padding);
+}
+.cards-cont .card .img img {
+  width: 150px;
+  height: 250px;
+}
+.cards-cont .card:hover img {
+  transform: var(--scale);
+}
+
+.cards-cont .card h1 {
+  margin: var(--main-margin);
+  font-family: var(--poppins);
+  font-weight: 400;
+}
+
+.cards-cont .card .add {
+  background-color: var(--white);
+  border: var(--border);
+  color: var(--black);
+  width: fit-content;
+  padding: var(--main-padding);
+  border-radius: var(--border-radius);
+  margin: var(--main-margin) auto;
+}
+
+.cards-cont .card .add:hover {
+  background-color: var(--sec-color);
+  border: var(--border);
+  color: var(--white);
+}
+
+.cards-cont .card .price {
+    /* font-size: 18px; */
+    margin-top: var(--main-margin);
+}

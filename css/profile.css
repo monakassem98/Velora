@@ -1,0 +1,132 @@
+body {
+  display: flex;
+}
+.profile-section {
+  display: none;
+}
+:root {
+  --fontHeadings: "Merienda", cursive;
+  --fontMain: "Roboto", sans-serif;
+  --colorMain1: #f9c3bb;
+  --colorMain2: #fff9f8;
+  --colorMain3: #252525;
+  --colorBorder: #c6948d;
+}
+::selection {
+  background-color: var(--colorMain1);
+}
+.color-head {
+  color: var(--colorMain1);
+  font-family: var(--fontHeadings);
+  font-size: 24px;
+}
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+}
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+  font-family: var(--fontMain);
+}
+.sidebar a:hover {
+  text-decoration: underline;
+}
+.sidebar i:hover {
+  color: var(--colorMain1);
+}
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  background-color: var(--colorMain1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.btn-Color {
+  background-color: var(--colorMain1);
+  border-color: var(--colorBorder);
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-family: var(--fontMain);
+  color: var(--colorMain2);
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.btn:hover {
+  background-color: var(--colorMain2);
+  border-color: var(--colorMain1);
+  color: var(--colorMain1);
+}
+.color-button {
+  background-color: var(--colorMain1);
+  border-color: var(--colorBorder);
+  font-family: var(--fontMain);
+}
+.btn1:hover {
+  background-color: #f9c3bb;
+  border-color: var(--colorMain1);
+  color: var(--colorMain2);
+  font-weight: bold;
+}
+
+.borderColor {
+  border-color: var(--colorBorder);
+}
+.colorText2 {
+  font-family: var(--fontMain);
+  font-weight: bold;
+}
+.profile-section {
+  p {
+    text-align: center;
+    margin: 90px auto;
+    font-size: 27px;
+    font-family: var(--fontMain);
+    color: var(--colorMain3);
+    width: 70%;
+  }
+}
+.edit-btn {
+  margin: 50px auto;
+  background-color: var(--colorMain1);
+  border-color: var(--colorBorder);
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-family: var(--fontMain);
+  color: var(--colorMain2);
+  font-weight: bold;
+}
+.border-bottom-custom {
+  border-bottom: 2px solid var(--colorBorder);
+  padding-bottom: 10px;
+}
+.icon-order {
+  font-size: 60px;
+  text-align: center;
+  color: var(--colorBorder);
+}
+#editProfileForm {
+  margin-top: 80px;
+  button {
+    margin-left: 0px;
+  }
+}

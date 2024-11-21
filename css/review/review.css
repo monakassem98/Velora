@@ -1,0 +1,45 @@
+.review .cont .card {
+  width: 300px;
+  background-color: var(--main-color);
+  border-radius: var(--border-radius);
+  text-align: center;
+  padding: var(--main-padding);
+  margin: var(--internal-margin) auto;
+}
+.review .cont .card .info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.review .cont .card .info img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+/* 
+@media (max-width: 780px){
+  .review .cont .card .info img{
+    width: 100px;
+    height: 100px;
+  }
+} */
+
+.review .cont .card .stars .str {
+  color: var(--gold);
+  margin-top: var(--main-margin);
+}
+.review .cont .card p {
+  margin: var(--main-margin) auto;
+}
+
+.review .cont .two {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  .review .cont .two {
+    flex-direction: column;
+  }
+}

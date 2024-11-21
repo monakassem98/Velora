@@ -1,0 +1,99 @@
+body {
+  background-color: #f8f9fa;
+}
+:root {
+  --fontHeadings: "Merienda", cursive;
+  --fontMain: "Roboto", sans-serif;
+  --colorMain1: #f9c3bb;
+  --colorMain2: #fff9f8;
+  --colorMain3: #252525;
+  --colorBorder: #c6948d;
+}
+::selection {
+  background-color: var(--colorMain1);
+}
+/* Style for headings */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  /* font-family: var(--fontHeadings); */
+  text-shadow: #f8f9fa 4px 4px;
+}
+/* color for headings */
+.text-color {
+  color: var(--colorMain1);
+}
+.color-head {
+  color: var(--colorMain1);
+  font-family: var(--fontHeadings);
+}
+.fontType {
+  font-family: var(--fontMain);
+  font-size: 1rem;
+}
+.form-check-input {
+  background-color: var(--colorBorder);
+}
+/* Color for inputs */
+.colorText2 {
+  font-family: var(--fontMain);
+  font-weight: bold;
+}
+/* Style for label fprm */
+.col-md-6 {
+  font-family: var(--fontMain);
+  font-weight: bold;
+}
+/* color fontawsome */
+.color-awsome {
+  color: var(--colorMain2);
+  transition: all 0.5;
+}
+.color-awsome:hover {
+  color: var(--colorMain1);
+}
+.borderColor {
+  border-color: var(--colorBorder);
+}
+ul li i {
+  margin-right: 10px;
+  font-family: var(--fontMain);
+}
+
+.social-icons a {
+  font-size: 20px;
+  color: var(--colorMain1);
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.form-control {
+  border-radius: 0.25rem;
+}
+
+.form-check-label {
+  margin-right: 15px;
+}
+
+.btn1 {
+  background-color: var(--colorMain1);
+  border-color: var(--colorBorder);
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-family: var(--fontMain);
+}
+
+.btn1:hover {
+  background-color: var(--colorMain2);
+  border-color: var(--colorMain1);
+  color: var(--colorMain3);
+}
+
+@media (max-width: 768px) {
+  .text-center {
+    margin-bottom: 30px;
+  }
+}

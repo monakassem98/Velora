@@ -1,0 +1,128 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wish-container {
+  width: 80%;
+  margin: 3% auto;
+}
+.wish-title h2 {
+  display: inline-block;
+}
+.wish-title i {
+  font-size: 50px;
+}
+.wish-titles {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+}
+.wish-titles p {
+  /* display: inline-block; */
+  margin: 0 10px;
+  font-size: 18px;
+  color: var(--black);
+  font-family: var(--main-color);
+  transition: 0.3s ease-in-out;
+}
+.wish-products {
+  margin-top: 10px;
+}
+.product {
+  /* background-color: burlywood; */
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  border: 0.5px solid var(--main-color);
+  border-radius: 10px;
+  padding: 20px;
+  padding-right: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.product div {
+  display: flex;
+  align-items: center;
+}
+.product img {
+  border-radius: 12px;
+  width: 50px;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 10%;
+}
+.details p {
+  margin-left: 5px;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  width: 15%;
+  transition: 0.3s ease-in-out;
+}
+.btn-container a {
+  display: block;
+}
+.btn {
+  background-color: #fff9f8;
+  color: #252525;
+  border: 0.5px solid #dfaba3;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-right: 5px;
+  transition: 0.3s ease-in-out;
+  width: 120px;
+}
+/* @media (max-width: 768px) {
+  .btn-container {
+    width: 10%;
+  }
+  .btn {
+    font-size: 10px;
+    padding: 3px 5px;
+  }
+  .product p {
+    font-size: 12px;
+  }
+
+  .wish-titles p {
+    font-size: 12px;
+  }
+} */
+
+@media (max-width: 992px) {
+  .wish-titles {
+    display: none;
+  }
+  .product {
+    margin: auto;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 300px;
+    padding-right: 20px;
+  }
+  .product img {
+    width: 150px;
+    margin: auto;
+  }
+  .product .details {
+    flex-direction: column;
+    margin-left: 0;
+    font-size: 24px;
+  }
+  .product .btn-container {
+    width: fit-content;
+  }
+}

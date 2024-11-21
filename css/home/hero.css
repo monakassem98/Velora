@@ -1,0 +1,40 @@
+.hero-section{
+    margin-top: var(--section-margin);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+.hero-section img{
+    width: 550px;
+  }
+
+.hero-section .txt{
+    margin-left: var(--section-margin);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+@media(max-width:992px){
+    .hero-section{
+        position: relative;
+        height: 35vh;
+    }
+    .hero-section .img{
+        display: none;
+    }
+ 
+    .hero-section .txt{
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: -40%;
+    }
+}

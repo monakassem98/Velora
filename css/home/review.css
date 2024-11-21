@@ -1,0 +1,49 @@
+.review {
+  padding-bottom: 50px;
+}
+
+.review .cont .cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review .cont .card {
+  width: 25%;
+  background-color: var(--card-color);
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
+  padding-top: 30px;
+  margin: var(--internal-margin) auto;
+}
+.review .cont .card .info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.review .cont .card .info img {
+  width: 100px;
+}
+.review .cont .card .stars .str {
+  color: var(--gold);
+  margin-top: var(--main-margin);
+}
+
+.review .cont .card p {
+  /* margin: var(--main-margin) auto; */
+  font-size: 12px;
+}
+
+.review .cont .two {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 1100px) {
+  .review .cont .cards-container {
+    flex-wrap: wrap;
+  }
+  .review .cont .card {
+    width: 300px;
+  }
+}

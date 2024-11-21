@@ -1,0 +1,30 @@
+.upper-head .up {
+    background-color: var(--light-gray);
+    padding-top: var(--internal-padding);
+    padding-bottom: var(--internal-padding);
+    margin-bottom: var(--main-margin);
+  }
+  .upper-head .up span {
+    font-family: var(--secondary-font);
+  }
+  .upper-head .up span .about {
+    color: var(--sec-color);
+    text-decoration: underline;
+  }
+  .upper-head .up a {
+    margin-right: var(--main-margin);
+  }
+  
+  .upper-head .up .arr {
+    margin-right: var(--main-margin);
+  }
+  
+  .upper-head .up a:hover {
+    color: var(--sec-color);
+    text-decoration: underline;
+  }
+  
+  .upper-head .up h1 {
+    text-align: center;
+    margin: var(--internal-margin) 0;
+  }

@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/*global variables  */
+:root {
+  /* colors */
+  --logo-color: #dfaba3;
+  --main-color: #f9c3bb;
+  --sec-color: #c6948d;
+  --back-color: #f9c3bb79;
+  --white: #fcf5f3;
+  --black: #252525d0;
+  --light-gray: #f9f9f9;
+  --card-color: #ffe0dc;
+  --gold: #ffc100;
+
+  /* fonts  */
+  --main-font: "Roboto", serif;
+  --logo-font: "Fleur De Leah", serif;
+  --secondary-font: "Merienda", serif;
+  --poppins: "Poppins", serif;
+
+  /* border*/
+  --border: var(--sec-color) 1px solid;
+  --border-radius: 10px;
+
+  /* padding  */
+  --main-padding: 10px;
+  --section-padding: 50px 0 50px 0;
+  --internal-padding: 30px;
+  --btn-padding: 10px 20px;
+
+  /* margin  */
+  --main-margin: 10px;
+  --section-margin: 70px;
+  --internal-margin: 30px;
+
+  /* shadow */
+  --shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+
+  /* transform  */
+  --scale: scale(1.1);
+
+  /* transition */
+  --transition: 0.3s ease-in-out;
+}
+
+/* body style  */
+body {
+  font-family: var(--main-font);
+  color: var(--black);
+  padding: 0;
+  margin: 0;
+  background-color: var(--white);
+  transition: var(--transition);
+  box-sizing: border-box;
+}
+
+.stars{
+  color: var(--gold);
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+/* hovering  */
+:hover {
+  transition: var(--transition);
+}
+
+p {
+  color: var(--black);
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 992px) {
+  a {
+    font-size: 14px;
+  }
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 30px 0;
+  padding: 0;
+  font-size: 18px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cont {
+  width: 100% ;
+  margin: 0 auto;
+}
+
+/* start media queries  */
+/* large screen  */
+
+@media (min-width: 1024px) {
+  .cont {
+    width: 95%;
+  }
+}
+
+/* medium screen  */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cont {
+    width: 95%;
+  }
+}
+
+/* small screen  */
+
+@media (max-width: 767px) {
+  .cont {
+    width: 98%;
+  }
+}

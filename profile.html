@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Velora Account</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Css/bootstrap-5.3.3-dist/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="Css/fontawesome-free-6.6.0-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Css/profile.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2 class="color-head mb-4">My Velora Profile</h2>
+      <a href="#account-details" class="sidebar-link"
+        ><i class="fas fa-user mr-2 mb-2"></i> Account Details</a
+      >
+      <a href="#orders" class="sidebar-link"
+        ><i class="fas fa-box mr-2 mb-2"></i> Orders</a
+      >
+      <a href="#inbox" class="sidebar-link"
+        ><i class="fas fa-envelope mr-2 mb-2"></i> Inbox</a
+      >
+      <a href="#pending-review" class="sidebar-link"
+        ><i class="fas fa-clock mr-2 mb-2"></i> Pending Review</a
+      >
+      <a href="#vouchers" class="sidebar-link"
+        ><i class="fas fa-ticket-alt mr-2 mb-2"></i> Vouchers</a
+      >
+      <a href="#saved-items" class="sidebar-link"
+        ><i class="fas fa-save mr-2 mb-2"></i> Saved Items</a
+      >
+      <a href="#wish-list" class="sidebar-link"
+        ><i class="fas fa-heart mr-2 mb-2"></i> Wish List</a
+      >
+      <a href="#order-tracking" class="sidebar-link"
+        ><i class="fas fa-truck mr-2 mb-2"></i> Order Tracking</a
+      >
+      <a href="#recently-viewed" class="sidebar-link"
+        ><i class="fas fa-eye mr-2 mb-2"></i> Recently Viewed</a
+      >
+      <hr />
+      <a href="#account-management" class="sidebar-link">Account Management</a>
+      <button class="btn btn-Color mt-4">Log out</button>
+    </div>
+    <div class="main-content">
+      <!-- Section account details-->
+      <div id="account-details" class="profile-section">
+        <div class="d-flex align-items-center mb-4" id="account-details">
+          <div class="profile-photo"><i class="fas fa-user"></i></div>
+          <button
+            class="btn btn-secondary color-button ml-auto"
+            id="edit-button"
+          >
+            Edit
+          </button>
+        </div>
+        <h3>Account Details</h3>
+        <form id="accountForm">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="firstName" class="mb-3 colorText2">First Name</label>
+              <input
+                type="text"
+                class="form-control borderColor"
+                id="firstName"
+                placeholder="Your First Name"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="lastName" class="mb-3 colorText2">Last Name</label>
+              <input
+                type="text"
+                class="form-control borderColor"
+                id="lastName"
+                placeholder="Your Last Name"
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="gender" class="mb-3 colorText2">Gender</label>
+              <input
+                type="text"
+                class="form-control borderColor"
+                id="gender"
+                placeholder="Enter your gender"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="country" class="mb-3 colorText2">Country</label>
+              <input
+                type="text"
+                class="form-control borderColor"
+                id="country"
+                placeholder="Your Country"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- Section orders-->
+      <div id="orders" class="profile-section">
+        <h3 class="border-bottom-custom">Orders</h3>
+        <p>
+          You have placed no orders yet! All your orders will be saved here for
+          you to access their state anytime
+        </p>
+        <i
+          class="fas fa-box icon-order m-auto d-flex justify-content-center align-items-center"
+        ></i>
+        <button
+          class="btn edit-btn d-flex justify-content-center align-items-center"
+        >
+          Continue Shopping
+        </button>
+      </div>
+      <!-- Section inbox-->
+      <div id="inbox" class="profile-section">
+        <h3 class="border-bottom-custom">Inbox</h3>
+        <p>
+          You don't have any messages Here you will be able to see all the
+          messages that we send you. Stay tuned.
+        </p>
+        <i
+          class="fas fa-envelope icon-order m-auto d-flex justify-content-center align-items-center"
+        ></i>
+        <button
+          class="btn edit-btn d-flex justify-content-center align-items-center"
+        >
+          Continue Shopping
+        </button>
+      </div>
+      <!-- Section  pending review-->
+      <div id="pending-review" class="profile-section">
+        <h3 class="border-bottom-custom">Pending Review</h3>
+        <p>
+          You have no orders waiting for feedback After getting your products
+          delivered, you will be able to rate and review them. 
+        </p>
+        <i
+          class="fas fa-clock icon-order m-auto d-flex justify-content-center align-items-center"
+        ></i>
+        <button
+          class="btn edit-btn d-flex justify-content-center align-items-center"
+        >
+          Continue Shopping
+        </button>
+      </div>
+      <!-- Section  vouchers-->
+      <div id="vouchers" class="profile-section">
+        <h3 class="border-bottom-custom">Vouchers</h3>
+        <p>
+          You currently have no available Voucher All your available Vouchers
+          will be displayed here.
+        </p>
+        <i
+          class="fas fa-ticket-alt icon-order m-auto d-flex justify-content-center align-items-center"
+        ></i>
+        <button
+          class="btn edit-btn d-flex justify-content-center align-items-center"
+        >
+          Continue Shopping
+        </button>
+      </div>
+      <!-- saved-items-->
+      <div id="saved-items" class="profile-section">
+        <h3 class="border-bottom-custom">Saved Items</h3>
+        <p>Your saved items will be displayed here.</p>
+        ><i
+          class="fas fa-save icon-order m-auto d-flex justify-content-center align-items-center"
+        ></i>
+        <button
+          class="btn edit-btn d-flex justify-content-center align-items-center"
+        >
+          Continue Shopping
+        </button>
+      </div>
+      <!-- wish-list-->
+      <div id="wish-list" class="profile-section">
+        <h3 class="border-bottom-custom">Wish List</h3>
+        <p>Your wish list will be displayed here.</p>
+        ><i
+          class="fas fa-heart icon-order m-auto d-flex justify-content-center align-items-center"
+        ></i>
+        <button
+          class="btn edit-btn d-flex justify-content-center align-items-center"
+        >
+          Continue Shopping
+        </button>
+      </div>
+      <!-- order-tracking-->
+      <div id="order-tracking" class="profile-section">
+        <h3 class="border-bottom-custom ml-0">Order Tracking</h3>
+        <p>
+          You don't follow any orders Tracking ! All your followed orders will
+          be displayed here.
+        </p>
+        <i
+          class="fas fa-truck icon-order m-auto d-flex justify-content-center align-items-center"
+        ></i>
+        <button
+          class="btn edit-btn d-flex justify-content-center align-items-center"
+        >
+          Stare Tracking
+        </button>
+      </div>
+      <!-- recently-viewed-->
+      <div id="recently-viewed" class="profile-section">
+        <h3 class="border-bottom-custom">Recently Viewed</h3>
+        <p>
+          No Recently Viewed Products You have no recently viewed products at
+          the moment.
+        </p>
+        <i
+          class="fas fa-eye icon-order m-auto d-flex justify-content-center align-items-center"
+        ></i>
+        <button
+          class="btn edit-btn d-flex justify-content-center align-items-center"
+        >
+          Start Shopping
+        </button>
+      </div>
+      <!-- Section account -->
+      <div id="account-management" class="profile-section">
+        <h3 class="border-bottom-custom">Account Management</h3>
+        <form id="editProfileForm">
+        <div class="col-md-6">
+          <form id="changePasswordForm">
+            <div class="form-group">
+              <label for="currentPassword" class="colorText2">Current Password</label>
+              <input
+                type="password"
+                class="form-control borderColor"
+                id="currentPassword"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="newPassword" class="colorText2">New Password</label>
+              <input
+                type="password"
+                class="form-control borderColor"
+                id="newPassword"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="confirmNewPassword" class="colorText2">Confirm New Password</label>
+              <input
+                type="password"
+                class="form-control borderColor"
+                id="confirmNewPassword"
+                required
+              />
+            </div>
+            <button type="submit" class="btn btn-Color mt-3">
+              Change Password
+            </button>
+          </form>
+        </div>
+    </div>
+    </div>
+
+    <!-- Bootstrap and JS scripts -->
+    <script src="Js/bootstrap-5.3.3-dist/bootstrap.bundle.min.js"></script>
+    <script src="Js/profile.js"></script>
+  </body>
+</html>

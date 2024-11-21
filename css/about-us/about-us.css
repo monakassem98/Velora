@@ -1,0 +1,18 @@
+
+
+.img {
+  text-align: center;
+}
+.img img {
+  width: 60%;
+}
+
+.about .txt{
+    margin-top: var(--internal-margin);
+    margin-bottom: var(--internal-margin);
+}
+.about .txt .cont p {
+    margin: auto;
+    margin-bottom: var(--main-margin) ;
+    text-align: center;
+}

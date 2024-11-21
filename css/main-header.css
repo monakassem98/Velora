@@ -1,0 +1,5 @@
+.main-heading {
+  text-align: center;
+  margin-top: var(--section-margin);
+  margin-bottom: var(--internal-margin);
+}

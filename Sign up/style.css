@@ -1,0 +1,84 @@
+* {
+  /* font-family: "Roboto", serif; */
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.main {
+  position: absolute;
+  top: -50%;
+  right: 50%;
+  transform: translate(50%, -100%);
+  z-index: 20000000;
+}
+.sign-container i {
+  font-size: 20px;
+  cursor: pointer;
+}
+.sign-container .i {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.sign-container {
+  width: 550px;
+  height: 450px;
+  background-color: #fff9f8;
+  text-align: center;
+  position: relative;
+  border-radius: 12px;
+  border: var(--border);
+}
+.sign-container p {
+  font-size: 18px;
+  color: #252525;
+  margin: 20px auto;
+}
+.sign-container h1 {
+  margin: 0px 0px;
+}
+.sign-container .logo {
+  font-family: "Fleur De Leah", serif;
+  font-size: 48px;
+  color: #dfaba3;
+  display: block;
+  text-decoration: none;
+}
+
+.social-icons a {
+  margin: 0 5px;
+}
+.input {
+  margin-bottom: 15px;
+}
+.input input {
+  display: block;
+  margin: 0px auto 5px;
+  width: 230px;
+  height: 24px;
+  border: #dfaba3 0.5px solid;
+  color: #252525;
+}
+.sign-btn {
+  background-color: #fff9f8;
+  color: #252525;
+  border: 0.5px solid #dfaba3;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.sign-btn:hover {
+  color: #fff9f8;
+  background-color: #dfaba3;
+}
+.linkclr {
+  font-size: 20px;
+  color: #dfaba3;
+  text-decoration: none;
+}
